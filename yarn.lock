@@ -256,6 +256,11 @@
     "@types/koa-compose" "*"
     "@types/node" "*"
 
+"@types/lodash@^4.14.91":
+  version "4.14.161"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.161.tgz#a21ca0777dabc6e4f44f3d07f37b765f54188b18"
+  integrity sha512-EP6O3Jkr7bXvZZSZYlsgt5DIjiGr0dXP1/jVEwVLTFgg0d+3lWVQkRavYVQszV7dYUwvg0B8R0MBDpcmXg7XIA==
+
 "@types/long@^4.0.0":
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/@types/long/-/long-4.0.1.tgz#459c65fa1867dafe6a8f322c4c51695663cc55e9"
@@ -2151,6 +2156,14 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.4:
   version "4.2.4"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.4.tgz#2256bde14d3632958c465ebc96dc467ca07a29fb"
   integrity sha512-WjKPNJF79dtJAVniUlGGWHYGz2jWxT6VhN/4m1NdkbZ2nOsEF+cI1Edgql5zCRhs/VsQYRvrXctxktVXZUkixw==
+
+graph-tools@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/graph-tools/-/graph-tools-0.1.2.tgz#5846aaab0e844e8ec71418d6a2c52696293d66d4"
+  integrity sha512-wDsgf7HDLP2BzfsWQG99Cz/71OgpJgpGWrUIfNn2BSdEqPtsII8QpIu3M964USnlBb7vjt324WSh4Gn18pSsLQ==
+  dependencies:
+    "@types/lodash" "^4.14.91"
+    lodash "^4.17.4"
 
 graphql-extensions@^0.12.4:
   version "0.12.4"

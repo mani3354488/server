@@ -1,6 +1,7 @@
 /* eslint-disable no-console */
 
 import express from 'express';
+import { graphiqlExpress, graphqlExpress } from 'apollo-server-express';
 import bodyParser from 'body-parser';
 
 import './config/db'
